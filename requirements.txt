@@ -1,0 +1,24 @@
+# Core Python packages
+numpy==1.26.4
+typing_extensions>=4.8.0
+
+# LangChain + LangGraph
+langchain>=0.2.0
+langchain-core>=0.2.0
+langgraph>=0.0.62
+langchain-huggingface>=0.1.0
+
+# HuggingFace + Transformers
+huggingface_hub>=0.23.0
+transformers>=4.41.0
+
+# Embeddings + FAISS
+sentence-transformers>=2.6.1
+faiss-cpu>=1.8.0
+
+# Protobuf pinned (required for HF + LangChain compatibility)
+protobuf==3.20.3
+
+# Utilities
+requests>=2.31.0
+pydantic>=2.7.0
